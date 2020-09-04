@@ -6,4 +6,6 @@ RUN apk add nodejs npm
 
 RUN npm i -g @vue/cli @vue/cli-service vercel
 
+RUN npm i -g caprover
+
 CMD ["/bin/sh"]
